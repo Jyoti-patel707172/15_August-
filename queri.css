@@ -1,0 +1,200 @@
+/* For tablets and larger mobile screens */
+@media (max-width: 768px) {
+    .flag {
+        width: 100vw;
+        height: auto;
+    }
+    .Ashok {
+        top: -20%; 
+        width: 41vw; 
+    }
+
+    .happy15 {
+        top: 0.5rem;
+        left: 10rem;
+        width: 25rem;
+    }
+
+    .mainpage {
+        padding: 0.75rem; 
+        font-size: 1.5rem; 
+    }
+
+    .paragraph {
+        margin: 9.9rem 0.75rem; 
+        font-size: 1.1rem; 
+    }
+
+    .letplay {
+        margin: -7.5rem auto; 
+        font-size: 1.25rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    #backgroundVideo {
+        width: 4rem; 
+        height: auto; 
+        margin-top: 1.5rem; 
+        left: 4rem; 
+    }
+    .poppage {
+        width: 80%; 
+        max-width: 12rem; 
+        top: 25%;
+        font-size: 1.1rem; 
+    }
+
+    input[type=text] {
+        width: 8rem;
+    }
+
+    .startgame {
+        width: 8rem;
+    }
+
+    #Quiz_section {
+        width: 95%;
+        margin-top: 8rem;
+    }
+
+    .Simpleword {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 400;
+    }
+   
+
+    
+    #Quiz_section {
+        width: 95%;
+        padding: 20px;
+        margin-top: 8rem;
+    }
+}
+
+/* For small mobile screens */
+@media (max-width: 480px) {
+    .flag {
+        top: 14rem;
+        width: 100%; 
+        height: auto; 
+
+    }
+
+    .Ashok {
+        top: -20%; 
+        width: 65vw;
+    }
+
+    .happy15 {
+        top: 0.5rem;
+        left: 5rem;
+        width: 15rem;
+    }
+
+    .mainpage {
+        padding: 0.75rem; 
+        font-size: 1.5rem; 
+    }
+
+    .paragraph {
+        margin: 8rem 0.5rem; 
+        font-size: 1rem; 
+    }
+
+    .letplay {
+        margin: -6rem auto; 
+        font-size: 1rem; 
+        padding: 0.3rem 0.6rem;
+    }
+
+    #backgroundVideo {
+        width: 3rem; 
+        height: auto; 
+        margin-top: 2.5rem; 
+        left: 3.5rem; 
+    }
+
+    .poppage {
+        width: 90%; 
+        max-width: 10rem; 
+        top: 30%; 
+        font-size: 1rem; 
+    }
+
+    input[type=text] {
+        width: 6rem;
+    }
+
+    .startgame {
+        width: 8rem;
+        font-size: 1.2rem;
+    }
+
+    #Quiz_section {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .Simpleword {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 300;
+    }
+    
+
+    
+}
+@media (max-width: 1482px) {
+    .butterfly1 {
+        left: 0rem;
+        
+    
+    }
+    .butterfly2{
+        right: 0rem;
+    }
+}
+@media (max-width: 687px)
+{
+    .btn{
+        text-align: center;
+    }
+.fly1{
+    width: 1vw;
+}
+.fly2{
+    width: 3vw;
+}
+.fly3{
+    width: 5vw;
+}
+.fly4{
+    width: 7vw;
+}
+.fly5{
+    width: 9vw;
+}
+}
+@media (max-width: 974px)
+{
+.fly1{
+    width: 3vw;
+}
+.fly2{
+    width: 6vw;
+}
+.fly3{
+    width: 9vw;
+}
+.fly4{
+    width: 12vw;
+}
+.fly5{
+    width: 15vw;
+}
+}

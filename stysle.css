@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+        background-color: rgb(76, 192, 227);
+        font-family: Arial, sans-serif;
+        
+       }
+       
+
+       .flag {
+        position: absolute;
+        top: 16rem;
+        z-index: -1;
+        opacity: 0.5;
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+    } 
+
+      .Ashok {
+        position: absolute;
+        top: -26%; 
+        left: 50%;
+        transform: translateX(-50%); 
+        z-index: -1;
+        width: 26rem; 
+        height: auto; 
+    }
+  .happy15{
+    position: absolute;
+     top: 1rem ;
+     left: 27vw;
+     z-index: -1;
+     width: 40vw;
+     
+  }
+
+  .mainpage {
+    padding: 1rem; 
+    color: black;
+    text-align: center;
+    font-size: 2rem; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.paragraph {
+    margin: 15rem 1rem;
+    font-size: 1.25rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.6;
+}
+
+.letplay {
+    margin: -10rem auto; 
+    font-size: 1.5rem;
+    border: #f42222 solid 2px;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem; 
+    display: block; 
+    text-align: center; 
+    width: fit-content; 
+}
+#backgroundVideo {
+    width: 5rem; 
+    height: auto; 
+    margin-top: 1rem;
+    background-color: white;
+    border: solid 0px;
+    border-radius: 1rem; 
+    position: absolute;
+    left: 5rem; 
+    top: -4rem;
+}
+.poppage {
+    width: 90%; 
+    max-width: 15rem; 
+    height: auto; 
+    background-color: #fff;
+    position: absolute;
+    top: 20%; 
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    visibility: hidden;
+    border: solid 0px;
+    border-radius: 1rem; 
+}
+.open-popup{
+    visibility: visible;
+    top: 30%;
+}
+.UserName{
+    margin: 1.5rem 0rem 1rem 0rem;
+    font-weight: 800;
+}
+input[type=text]{
+    width: 10rem;
+    height: 2rem;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+.startgame{
+    margin: 3rem 0rem 0rem 0rem;
+    font-size:1.5rem;
+    background-color: chartreuse;
+    text-transform:capitalize;
+    font-weight: 600;
+    border: black solid 2px;
+    border-radius: 2rem;
+    width: 10rem;
+    text-align: center;
+}
+.startgame:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.startgame:hover:not(:disabled) {
+    background-color: #035a29;
+}
+
+
+/* quizhtml*/
+#Quiz_section{
+    background-color: rgb(190, 216, 239);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 12rem;
+}
+.Simpleword {
+    display: block; /* Ensure the <h1> is displayed */
+    font-size: 25px;
+    color: #040505;
+    font-weight: 600;
+    border-bottom: 1px solid wheat;
+    padding-bottom: 30px;
+    text-align: center; /* Ensure text is centered if needed */
+}
+
+
+#quiz{
+    padding: 20px 0;
+}
+#quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+#quiz-question{
+    text-align: center;
+    
+}
+.btn{
+    background: #fff;
+    color: #222;
+    font-size: 500;
+    width: 100%;
+    border: 1px solid#222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #222;
+    color: #fff;
+}
+#submit1{
+    background: #F4A460;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    bottom: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+#submit2{
+    background: #FF00FF;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    bottom: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+#quiz-section {
+    display: none; /* Initially hidden, shown when the quiz starts */
+}
+.butterfly1{
+    align-items: center;
+    position: absolute;
+    left: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+.butterfly2{
+    align-items: center;
+    position: absolute;
+    right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+
+
+}
+.fly1{
+    width: 3vw;
+}
+.fly2{
+    width: 8vw;
+}
+.fly3{
+    width: 13vw;
+}
+.fly4{
+    width: 18vw;
+}
+.fly5{
+    width: 23vw;
+}
+.emoji{
+    width: 13vw;
+    position:absolute;
+    top: 69vh;
+    left: 44vw;
+    display: none;
+    
+}
+#myAudio{
+    display: none;
+}
