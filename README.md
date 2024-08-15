@@ -16,6 +16,6 @@ CSS
 JavaScript
 Getting Started:
 
-Clone the repository: git clone https://github.com/username/Independence-Day-Quiz-Game.git
+Clone the repository: git clone [https://github.com/username/Independence-Day-Quiz-Game.git](https://github.com/Jyoti-patel707172/15_August-/tree/main)
 Navigate to the project folder: cd Independence-Day-Quiz-Game
 Open index.html in your web browser to play the game.
